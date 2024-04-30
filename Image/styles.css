@@ -1,0 +1,51 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.heroImg {
+    display: flex;
+    align-items: center;
+
+}
+
+.heroImg {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    color: rgb(14, 0, 0);  
+}
+
+.profile-photo {
+    width: 500px;
+    height: auto;
+
+}
